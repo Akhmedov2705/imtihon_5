@@ -24,8 +24,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    _geminiService =
-        GeminiService(); // API key endi main.dart ichida init bo'lgan
+    _geminiService = GeminiService();
   }
 
   Future<void> _pickImage(ImageSource source) async {
